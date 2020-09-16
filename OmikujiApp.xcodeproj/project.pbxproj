@@ -13,6 +13,8 @@
 		C737FB1A250F0A5300E20F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C737FB18250F0A5300E20F6F /* Main.storyboard */; };
 		C737FB1C250F0A5500E20F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C737FB1B250F0A5500E20F6F /* Assets.xcassets */; };
 		C737FB1F250F0A5500E20F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C737FB1D250F0A5500E20F6F /* LaunchScreen.storyboard */; };
+		C737FB292511A2CB00E20F6F /* drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C737FB272511A2CB00E20F6F /* drum.mp3 */; };
+		C737FB2A2511A2CB00E20F6F /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C737FB282511A2CB00E20F6F /* bell.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C737FB1B250F0A5500E20F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C737FB1E250F0A5500E20F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C737FB20250F0A5500E20F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C737FB272511A2CB00E20F6F /* drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drum.mp3; sourceTree = "<group>"; };
+		C737FB282511A2CB00E20F6F /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		C737FB06250F0A5300E20F6F = {
 			isa = PBXGroup;
 			children = (
+				C737FB262511A2CB00E20F6F /* omikuji_sound */,
 				C737FB11250F0A5300E20F6F /* OmikujiApp */,
 				C737FB10250F0A5300E20F6F /* Products */,
 			);
@@ -65,6 +70,15 @@
 				C737FB20250F0A5500E20F6F /* Info.plist */,
 			);
 			path = OmikujiApp;
+			sourceTree = "<group>";
+		};
+		C737FB262511A2CB00E20F6F /* omikuji_sound */ = {
+			isa = PBXGroup;
+			children = (
+				C737FB272511A2CB00E20F6F /* drum.mp3 */,
+				C737FB282511A2CB00E20F6F /* bell.mp3 */,
+			);
+			path = omikuji_sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C737FB1F250F0A5500E20F6F /* LaunchScreen.storyboard in Resources */,
+				C737FB2A2511A2CB00E20F6F /* bell.mp3 in Resources */,
 				C737FB1C250F0A5500E20F6F /* Assets.xcassets in Resources */,
+				C737FB292511A2CB00E20F6F /* drum.mp3 in Resources */,
 				C737FB1A250F0A5300E20F6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
